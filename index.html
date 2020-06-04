@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title>Neranjana Prasad (@NandiyaLive)</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap" rel="stylesheet"> 
+  <script async="" src="assets/js.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-custom navbar-expand-lg fixed-top">
+      <div class="container-md">
+        <h2 class="header-name"><a href="http://nandiya.tk">Neranjana</a></h2>
+        <div>
+          <div class="my-2 my-md-0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="http://blog.nandiya.tk">BLOG</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 align="center" id="tagline" class="title display-4"><span aria-hidden="true"></span></h1>
+        <p>Tech Enthusiast • Linux User • Code Lover • Binge Watcher
+          <br>TwitterHolic • Web Developer • Occasional Writer</p>
+        </div>
+      </div>
+
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-md-7 order-md-2">
+            <h2>Hello 👋</h2>
+            <p>I'm Neranjana Prasad, a 20 year old Tech Geek currently living in Sri Lanka. I have a burning passion to code. I enjoy the limitless potential of impact that I can have with what I build. Outside of coding, you can find me watching Movies!
+              <br>Did I mention about <span style="color:red"><a href ="https://en.wikipedia.org/wiki/Rashmika_Mandanna" target="_blank" title="Rashmika Mandanna (born 5 April 1996) is an Indian film actress and model who works predominantly in Telugu and Kannada films.She is popularly dubbed by the media and Kannada film industry as the 'Karnataka Crush'.">Rashmika Mandanna</a></span> ? Gaah! She is the cutest girl on the Earth.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="assets/avatar.png" width="300px" height="300px" align="center">
+            </div>
+          </div>
+
+          <hr class="divider">
+
+          <div class="row">
+            <div class="col-md-6">
+              <p>I WORK WITH</p>
+              <div data-icon="HTML5" style="fill: rgb(227, 79, 38);">
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 8%; height: 8%">
+                  <title>HTML5</title>
+                  <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z">
+                  </path>
+                </svg>
+              </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+          </div>
+
+          <hr class="divider">
+
+          <div class="text-center">
+            <p>Wanna contact me? Simply click on any link below.</p>
+          </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class="footer mt-auto py-3 bg-dark text-white text-center">
+          <div class="container">
+            <span>Made with by <a href="https://twitter.com/NandiyaLive">@NandiyaLive</a>. </span>
+          </div>
+        </footer>
+      </main>
+
+
+      <!--/ TypeWriter /-->
+      <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function (event) {
+          var dataText = ["Neranjana Prasad","Nandiya"];
+          function typeWriter(text, i, fnCallback) {
+            if (i < (text.length)) {
+              document.querySelector("#tagline").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+
+              setTimeout(function () {
+                typeWriter(text, i + 1, fnCallback)
+              }, 150);
+            }
+            else if (typeof fnCallback == 'function') {
+            // call callback after timeout
+            setTimeout(fnCallback, 3000);
+          }
+        }
+        function StartTextAnimation(i) {
+          if (typeof dataText[i] == 'undefined') {
+            setTimeout(function () {
+              StartTextAnimation(0);
+            }, 2000);
+          }
+          if (i < dataText[i].length) {
+            typeWriter(dataText[i], 0, function () {
+              StartTextAnimation(i + 1);
+            });
+          }
+        }
+        StartTextAnimation(0);
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.js"></script>
+
+  </body>
+  </html>
