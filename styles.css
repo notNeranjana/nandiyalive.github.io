@@ -6,6 +6,10 @@ body {
   background-color: #252525;
 }
 
+main {
+  padding-bottom: 15px;
+}
+
 .container{
   padding-top: 20px;
   max-width: 900px;
@@ -25,6 +29,13 @@ body {
   font-size: 13px;
 }
 
+p {
+  font-size: 16px;
+}
+
+
+/* HyperLinks */
+
 main a:hover {
   color: #ffe566;
 }
@@ -33,8 +44,18 @@ main a {
   color: #ffd700;
 }
 
-p {
-  font-size: 16px;
+.footer a:hover {
+  color: #ffe566;
+}
+
+.footer a {
+  color: #ffd700;
+}
+.no-deco a{
+  color: inherit;
+}
+.no-deco a:hover {
+  color: inherit;
 }
 
 .rash a {
@@ -113,7 +134,7 @@ nav a, a:hover {
 
 ul.feature-icons {
   list-style: none;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 ul.feature-icons li {
@@ -136,7 +157,7 @@ ul.feature-icons li:before {
 }
 
 ul.feature-icons li:before {
-  background: #4acaa8;
+  background: #525252;
   border-radius: 100%;
   color: #ffffff;
   display: block;
@@ -155,7 +176,7 @@ ul.feature-icons li:before {
   display: inline-block;
   position: relative;
   top: .1em;
-  font-size: 01em;
+  font-size: 0.8em;
   -webkit-transform: scale(.9);
   -moz-transform: scale(.9);
   transform: scale(.9);
@@ -208,6 +229,7 @@ ul.work-with li:before {
   text-transform: none !important;
 }
 
+
 /* Social Icons */
 
 .list-unstyled {
@@ -216,13 +238,14 @@ ul.work-with li:before {
 }
 .list-inline li {
   display: inline-block;
+  padding-top: 10px;
   padding-right: 3px;
   padding-left: 3px;
   margin-bottom: 10px;
 }
 
 .social-icons .fab {
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .social-icons .fab {
@@ -259,6 +282,6 @@ ul.work-with li:before {
 .social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
 .social-icons .fa-vk{background-color:#375474;}
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
-.social-icons .fa-reddit{background-color:#FF4500;}
+.social-icons .fa-reddit, .social-icons .fa-reddit-alien{background-color:#FF4500;}
 .social-icons .fa-telegram,.social-icons .fa-telegram-plane{background-color:#0088CC;}
 .fa-twitter {color:#32CCFE;}
